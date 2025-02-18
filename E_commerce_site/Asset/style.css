@@ -1,0 +1,232 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Outfit;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: #dadada;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+nav{
+    height: 50px;
+    background-color: rgb(83, 233, 83);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #fff;
+    /* font-size: 30px; */
+}
+.website-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-country{
+    display: flex;
+    align-items: end;
+    margin-left: 15px;
+    font-size: 13px;
+    /* border: 2px solid #fff; */
+}
+.nav-search{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+.nav-search-category{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    gap: 5px;
+    border-radius: 25px 0 0 25px;
+    background-color:  #d4d2d2;
+}
+.nav-search-input{
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+}
+.nav-search-icon{
+    width: 40px;
+    padding: 10px;
+    background-color: #99ec9c;
+    border-radius: 0 25px 25px 0;
+}
+.nav-lang{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.nav-text p, .nav-text h1{
+    font-size: 18px;
+    margin-left: 15px;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    margin: 0 15px 0 15px;
+}
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #509ff4;
+    display: flex;
+    color: white;
+    font-size:15px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-opt p {
+    display: inline;
+    margin-left: 5px;
+}
+.panel-opt{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.header-img{
+    width: 100%;
+    height: 500px;
+    mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);  /*gradiaent layer*/
+}
+.header-slider ul{
+    display: flex;
+    overflow-y: hidden;
+}
+.header-slider a{
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    background-color: #ffffff4f;
+    color: #0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.control_next{
+    right: 0;
+}
+/* shop section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #4e7cfb;
+    padding-bottom: 10px;
+}
+.shop-msg{
+    background-color: #4e7cfb;
+    border-radius: 70px 70px 0 0;
+    height: 100px;
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.shop-msg h1{
+    color: rgb(57, 233, 57);
+    text-decoration: underline;
+}
+.box{
+    /* border: 2px solid black; */
+    border-radius: 8%;
+    height: 330px;
+    width: 23%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px 10px;
+    margin-top: 5px;
+}
+
+.img-box{
+    height: 280px;
+    background-size: cover;
+   
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.shop-section a{
+    color: black;
+}
+.discount-msg{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 15px;
+    border-radius: 30px;
+}
+/* foot panel */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 100px;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(./assets/grocery_31dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png);
+    background-size: cover;
+    height:100px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    text-align: center;
+
+
+}
