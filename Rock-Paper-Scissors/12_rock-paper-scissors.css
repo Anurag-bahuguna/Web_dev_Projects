@@ -6,11 +6,9 @@ body{
 .title{
     font-size: 30px;
     font-weight: bold;
-
 }
 .move-icon{
     height: 50px;
-
 }
 .move-btn{
     background-color: transparent;
